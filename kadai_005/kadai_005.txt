@@ -1,12 +1,12 @@
-PS D:\Work\git_temp\git_challenge> mkdir git_challenge
+PS D:\Work\git_temp> mkdir git_challenge
 
-    Directory: D:\Work\git_temp\git_challenge
+    Directory: D:\Work\git_temp
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 d----          2026/06/23    20:03                git_challenge
 
-PS D:\Work\git_temp\git_challenge> cd git_challenge
+PS D:\Work\git_temp> cd git_challenge
 PS D:\Work\git_temp\git_challenge\git_challenge> git init
 PS D:\Work\git_temp\git_challenge\git_challenge> New-Item hello_world.txt
 PS D:\Work\git_temp\git_challenge\git_challenge> "Hello, world!" > hello_world.txt
