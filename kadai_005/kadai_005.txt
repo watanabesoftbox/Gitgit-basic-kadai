@@ -1,0 +1,31 @@
+PS D:\Work\git_temp> mkdir git_challenge
+    Directory: D:\Work\git_temp
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2026/06/23    19:23                git_challenge
+
+PS D:\Work\git_temp> cd .\git_challenge
+
+PS D:\Work\git_temp\git_challenge> git init
+Initialized empty Git repository in D:/Work/git_temp/git_challenge/.git/
+
+PS D:\Work\git_temp\git_challenge> "Hello, world!" > hello_world.txt
+
+PS D:\Work\git_temp\git_challenge> git add .
+
+PS D:\Work\git_temp\git_challenge> git commit -m "初回コミット" 
+[main (root-commit) be43b61] 初回コミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+ 
+PS D:\Work\git_temp\git_challenge> "こんにちは、世界！" >> hello_world.txt
+
+PS D:\Work\git_temp\git_challenge> git add .
+
+PS D:\Work\git_temp\git_challenge> git commit -m "追記"
+[main 0172cff] 追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ 
+PS D:\Work\git_temp\git_challenge> git log --oneline
+0172cff (HEAD -> main) 追記
+be43b61 初回コミット
